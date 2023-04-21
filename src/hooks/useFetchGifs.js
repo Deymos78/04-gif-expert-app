@@ -30,6 +30,7 @@ export const useFetchGifs = (category) => {
   
     //Usamos el return para otras cosas 
     //En este caso hacemos un return de las imagenes y del estado de la carga de contenido
+    // Tercer comentario
     return {
         images,
         isLoading
