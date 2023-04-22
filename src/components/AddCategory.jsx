@@ -22,7 +22,7 @@ export const AddCategory = ({ onNewCategory }) => {
     //Esta funcion se ejecuta cuando se realiza un submit del formulario
         // Se recoge como parametro el event
     const onSubmit = ( event ) => {
-        
+        console.log('Hola mundo desde Submit')
         // Con el preventDefault evitamos que se realize el comportamiento normal del elemento, en este
         // caso evitamos que se recargue la pagina cada vez que pulsamos enter
         event.preventDefault();
@@ -46,7 +46,7 @@ export const AddCategory = ({ onNewCategory }) => {
 
   return (
 
-    <form onSubmit={  onSubmit }>
+    <form onSubmit={  onSubmit } aria-label="form">
         <input 
             type="text"
             placeholder="Buscar Gifs"
