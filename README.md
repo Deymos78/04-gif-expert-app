@@ -23,11 +23,17 @@
 
 
     npm install prop-types 
+
     npm install --save-dev jest
+
     npm install -D @types/jest
+
     npm install --save-dev babel-jest @babel/core @babel/preset-env
+
     npm install -D @babel/preset-react jest-environment-jsdom
+
     npm install --save-dev react-test-renderer
+    
     npm install -D whatwg-fetch
 
 
