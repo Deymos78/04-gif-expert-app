@@ -35,7 +35,9 @@ npm install --save-dev react-test-renderer
 
 2. **Opcional. Si usamos Fetch API en el proyecto**
 
-    npm install -D whatwg-fetch
+~~~
+npm install -D whatwg-fetch
+~~~ 
 
 3. Actualizar los scripts del **package.json**
 
